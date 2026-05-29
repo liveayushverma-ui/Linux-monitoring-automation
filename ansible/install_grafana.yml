@@ -1,0 +1,22 @@
+---
+- name: install_grafana
+  hosts: all
+  become: yes
+ 
+
+  tasks:
+  - name: install_grafana_using_script
+    script: /root/grafana.sh
+
+
+  - name: start_grafana
+    systemd: 
+      name: grafana-server
+      enabled: yes
+
+
+  - name: adding_port_in_firewall
+    ufw:
+      rule: allow
+      port: "3000"
+      proto: tcp

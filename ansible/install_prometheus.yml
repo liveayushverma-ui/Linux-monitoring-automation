@@ -1,0 +1,22 @@
+---
+- name: install_prometheus
+  hosts: all
+  become: yes
+ 
+
+  tasks:
+  - name: install_prometheus_using_script
+    script: /root/promethues.sh
+     
+     
+  - name: prometheus
+    systemd:
+      name: prometheus
+      enabled: yes
+       
+       
+  - name: adding_port_in_firewall
+    ufw:
+      rule: allow
+      port: "9090"
+      proto: tcp
