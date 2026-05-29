@@ -227,4 +227,4 @@ Created as a hands-on DevOps and Linux administration project.
 |                            |
 | Node Exporter :9100        |
 +----------------------------+
->>>>>>> d5f774b94ca84797faf4ac78644d590339486d97
+
