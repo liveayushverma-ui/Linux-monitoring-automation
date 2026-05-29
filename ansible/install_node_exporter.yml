@@ -1,0 +1,22 @@
+---
+- name: install_node-exporter
+  hosts: all
+  become: yes
+ 
+
+  tasks:
+  - name: install_node-exporter_using_script
+    script: /root/node-exporter.sh
+     
+     
+  - name: start_node_exporter
+    systemd:
+      name: node-exporter
+      enabled: yes
+       
+       
+  - name: adding_node-exporter_in_firewall
+    ufw:
+      rule: allow
+      port: "9100"
+      proto: tcp
