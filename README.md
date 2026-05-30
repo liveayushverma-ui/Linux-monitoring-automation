@@ -8,7 +8,7 @@ This project is a hands-on Linux and DevOps monitoring setup built using **Prome
 The project demonstrates how a Linux server can be monitored in real time by collecting system metrics such as CPU usage, memory usage, disk usage, uptime, and network traffic. The installation and configuration process is automated using Ansible playbooks.
 
 ---
-=======
+
 This project demonstrates a Linux server monitoring setup using Prometheus, Node Exporter and Grafana.
 
 The monitoring server runs Prometheus and Grafana.  
