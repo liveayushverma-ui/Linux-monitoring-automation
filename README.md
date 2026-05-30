@@ -3,7 +3,11 @@
 ## Project Overview
 
 
-This project is a hands-on Linux and DevOps monitoring setup built using **Prometheus**, **Node Exporter**, **Grafana**, and **Ansible**.
+This project is a hands-on Linux and DevOps monitoring setup built using 
+**Prometheus**
+**Node Exporter** 
+**Grafana** 
+**Ansible**.
 
 The project demonstrates how a Linux server can be monitored in real time by collecting system metrics such as CPU usage, memory usage, disk usage, uptime, and network traffic. The installation and configuration process is automated using Ansible playbooks.
 
