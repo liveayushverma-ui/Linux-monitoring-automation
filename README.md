@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-<<<<<<< HEAD
+
 This project is a hands-on Linux and DevOps monitoring setup built using **Prometheus**, **Node Exporter**, **Grafana**, and **Ansible**.
 
 The project demonstrates how a Linux server can be monitored in real time by collecting system metrics such as CPU usage, memory usage, disk usage, uptime, and network traffic. The installation and configuration process is automated using Ansible playbooks.
@@ -25,12 +25,11 @@ Prometheus collects system metrics from Node Exporter, and Grafana visualizes th
 - Git
 - systemd
 - Firewall management
->>>>>>> d5f774b94ca84797faf4ac78644d590339486d97
 
 ## Architecture
 
-```text
-<<<<<<< HEAD
+
+
 +--------------------------------+
 | Monitoring Server              |
 |                                |
@@ -78,7 +77,7 @@ Prometheus collects system metrics from Node Exporter, and Grafana visualizes th
 
 ## Folder Structure
 
-```text
+
 linux-monitoring-automation/
 ├── ansible/
 │   ├── inventory.ini
