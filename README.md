@@ -214,11 +214,16 @@ Created as a hands-on DevOps and Linux administration project.
 =======
 | Monitoring Server          |
 
-|                            |
+                         
 | Prometheus :9090           |
+
+
 | Grafana    :3000           |
               
-| Scrapes metrics 
+
+| Scrapes metrics            |
+
+
 Target Linux Server     
 Node Exporter :9100        
 
