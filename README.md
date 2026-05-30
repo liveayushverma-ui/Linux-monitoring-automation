@@ -42,12 +42,12 @@ Prometheus collects system metrics from Node Exporter, and Grafana visualizes th
                 
 
 
-+---------------v----------------+
++-------------------------------+
 | Target Linux Server            |
 |                                |
 | Node Exporter :9100            |
 | Linux System Metrics           |
-+--------------------------------+
++-------------------------------+
 
 
 ---
