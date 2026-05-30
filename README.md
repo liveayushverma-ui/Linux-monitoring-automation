@@ -221,9 +221,15 @@ Through this project, I learned:
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Created as a hands-on DevOps and Linux administration project.
+Ayush Verma
+
+RHCSA Certified System Administrator and Aspiring DevOps Engineer with hands-on experience in Linux administration, AWS cloud services, Docker containerization, CI/CD automation, Infrastructure as Code, and monitoring solutions.
+
+
+This project demonstrates practical implementation of Prometheus, Grafana, and Node Exporter for real-time infrastructure monitoring and observability in a Linux environment.
+
 
 
 | Monitoring Server          |
@@ -238,7 +244,7 @@ Created as a hands-on DevOps and Linux administration project.
 | Scrapes metrics            |
 
 
-Target Linux Server     
-Node Exporter :9100        
+   Target Linux Server     
+   Node Exporter :9100        
 
 
